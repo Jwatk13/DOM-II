@@ -25,9 +25,9 @@ document.addEventListener('copy', () => {
 })
 
 // 3
-// document.body.addEventListener('click', evt => {
-//     evt.target.classList.toggle('mirror');
-// })
+document.body.addEventListener('click', evt => {
+    evt.target.classList.toggle('mirror');
+})
 
 //4
 document.body.addEventListener('dblclick', evt => {
